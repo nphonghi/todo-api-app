@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "node inspect server.js"
+  },
+  "author": "kisennp",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.3.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "validator": "^13.12.0"
+  }
+}
